@@ -17,3 +17,17 @@ SPACESHIP_HOST_SHOW="always"
 
 # pywal
 (cat ~/.cache/wal/sequences &)
+
+
+
+
+### tooling ###
+
+# kubectl
+SPACESHIP_KUBECTL_SHOW=true
+source <(kubectl completion zsh)
+alias k=kubectl
+complete -F __start_kubectl k
+
+# kubeswitch
+source /usr/bin/switch.sh
