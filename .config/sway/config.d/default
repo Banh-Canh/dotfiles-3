@@ -42,6 +42,8 @@ exec swayidle -w\
 #
 # Basics:
 #
+    # copyQ
+    bindsym $mod+q exec copyq toggle
     # Start a floating terminal
     bindsym $mod+Return exec $term-float
 
