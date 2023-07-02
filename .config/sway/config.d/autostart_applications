@@ -22,4 +22,4 @@ exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 exec 'sleep 5; nextcloud'
 exec 'sleep 5; copyq'
 exec 'sleep 5; trayscale'
-swaymsg '[title="^trayscale"]' focus parent \; kill
+exec 'swaymsg \'[app_id="dev.deedles.Trayscale"]\' kill'
