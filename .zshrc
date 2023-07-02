@@ -17,10 +17,6 @@ SPACESHIP_HOST_SHOW="always"
 
 # pywal
 (cat ~/.cache/wal/sequences &)
-pywal-discord -d
-
-
-
 
 ### tooling ###
 

@@ -17,6 +17,8 @@ smart_borders on
 # Set wallpaper:
 exec swaybg -m fill -i ~/.config/wallpapers/*
 exec wal -n -i ~/.config/wallpapers
+exec pywal-discord -d
+exec pywalfox update
 
 # Title format for windows
 for_window [shell="xdg_shell"] title_format "%title (%app_id)"
