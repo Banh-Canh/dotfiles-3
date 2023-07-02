@@ -17,3 +17,8 @@ exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 
 # Sway Fader
 # exec python3 ~/.config/sway/scripts/swayfader.py      
+
+# apps
+exec 'sleep 5; nextcloud'
+exec 'sleep 5; copyq'
+exec 'sleep 5; trayscale'
