@@ -29,8 +29,8 @@ set $powermenu ~/.config/waybar/scripts/power-menu.sh
 exec swayidle -w\
     timeout 60 'swaylock -f -C ~/.config/swaylock/config'\
     timeout 180 'swaymsg "output * power off"' \
-    timeout 600 'systemctl suspend' \
     resume 'swaymsg "output * power on"' \
+    timeout 600 'swaymsg "output * power on"; systemctl suspend' \
     before-sleep 'swaylock -C ~/.config/swaylock/config'
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
