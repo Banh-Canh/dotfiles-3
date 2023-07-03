@@ -8,5 +8,7 @@
     "ShowConnections": true,
     "WhoReacted": true,
     "ShowAllActivities": true,
-    "CollapsibleUI": true
+    "CollapsibleUI": true,
+    "WayAFK": true,
+    "enhancecodeblocks": true
 }
