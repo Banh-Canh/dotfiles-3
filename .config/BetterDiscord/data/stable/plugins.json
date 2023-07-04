@@ -10,5 +10,6 @@
     "ShowAllActivities": true,
     "CollapsibleUI": true,
     "WayAFK": true,
-    "enhancecodeblocks": true
+    "enhancecodeblocks": true,
+    "AutoIdleOnAFK": true
 }
