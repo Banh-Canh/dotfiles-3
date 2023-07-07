@@ -3,3 +3,5 @@
 [user]
 	name = Victor Hang
 	email = vhvictorhang@gmail.com
+[commit]
+	gpgsign = true
