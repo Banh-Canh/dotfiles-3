@@ -1,8 +1,9 @@
 ### swayfx
 
-for_window [class=".*"] blur enable, blur_passes 3, blur_radius 3
+for_window [class=".*"] blur enable, blur_passes 3, blur_radius 3, corner_radius 10
+layer_effects waybar blur enable
 
-set $opacity 0.9
+set $opacity 0.8
 for_window [class="code-oss"] opacity $opacity
 for_window [class="YoutubeMusic"] opacity $opacity
 for_window [class="YouTube Music"] opacity $opacity
